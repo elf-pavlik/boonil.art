@@ -8,10 +8,6 @@ h2 {
   @include mdc-typography(headline4);
 }
 
-.inactive {
-  display: none;
-}
-
 body {
   margin: 0;
   background-color: $white;
@@ -30,12 +26,6 @@ main {
 
 .poster {
   display: block;
-  max-width: 90vw;
+  max-width: 600px;
   margin: 20px auto;
 }
-
-img.fullscreen {
-  margin: 0;
-  width: 100vw;
-}
-
