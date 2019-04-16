@@ -1,0 +1,41 @@
+@import "@material/typography/mdc-typography";
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+$white: #fafafa;
+$black: #000000;
+
+h2 {
+  @include mdc-typography(headline4);
+}
+
+.inactive {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background-color: $white;
+}
+
+.mdc-top-app-bar {
+  @include mdc-top-app-bar-ink-color($black);
+  @include mdc-top-app-bar-icon-ink-color($black);
+  @include mdc-top-app-bar-fill-color($white);
+}
+
+main {
+  margin-top: 56px;
+  padding: 0 1em;
+}
+
+.poster {
+  display: block;
+  max-width: 90vw;
+  margin: 20px auto;
+}
+
+img.fullscreen {
+  margin: 0;
+  width: 100vw;
+}
+
