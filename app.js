@@ -7,8 +7,20 @@ const topAppBarElement = document.querySelector('.mdc-top-app-bar')
 const topAppBar = new MDCTopAppBar(topAppBarElement)
 
 const pieces = [
-  'http://boonil.art/images/galleries/illustration/Maiz.jpg',
-  'http://boonil.art/images/galleries/illustration/muerte.jpg'
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/colibriDescalzo.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Dragona.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/MCIWeb.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Maiz.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/muerte.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Core1.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Core2.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/smile.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/itzpapalotl.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/ElserManos.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/vuelodePajaro.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/cuento2.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/cuento3.jpg',
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Campo.jpg'
 ]
 
 function fullScreen (event) {
