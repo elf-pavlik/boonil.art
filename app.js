@@ -7,6 +7,7 @@ const topAppBarElement = document.querySelector('.mdc-top-app-bar')
 const topAppBar = new MDCTopAppBar(topAppBarElement)
 
 const pieces = [
+  'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/treeWeb.jpg',
   'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/colibriDescalzo.jpg',
   'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/Dragona.jpg',
   'https://raw.githubusercontent.com/boonil/boonil.art/gh-pages/images/galleries/illustration/MCIWeb.jpg',
